@@ -1,0 +1,21 @@
+.app {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 20px;
+  }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.navClick {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
