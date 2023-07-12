@@ -1,0 +1,37 @@
+.orderTable {
+    margin-bottom: 20px;
+  }
+  
+  .orderTable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .orderTable th,
+  .orderTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .orderTable th:first-child,
+  .orderTable td:first-child {
+    width: 100px;
+  }
+  
+  .orderTable th:nth-child(2),
+  .orderTable td:nth-child(2) {
+    width: 200px;
+  }
+  
+  .orderTable th:nth-child(3),
+  .orderTable td:nth-child(3) {
+    width: 300px;
+  }
+  
+  .orderTable th:last-child,
+  .orderTable td:last-child {
+    width: 150px;
+    text-align: center;
+  }
+  

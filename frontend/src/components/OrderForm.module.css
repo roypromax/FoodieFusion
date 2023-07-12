@@ -1,0 +1,36 @@
+.orderForm {
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 20%;
+    margin: auto;
+  }
+  
+  .orderForm form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .orderForm div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .orderForm label {
+    font-weight: bold;
+  }
+
+  .orderForm button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .orderForm .error {
+    color: red;
+    margin-top: 5px;
+  }
